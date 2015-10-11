@@ -19,5 +19,14 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+@media only screen and (max-device-width: 35em) {
+    html {
+        float: none;
+        width: 100%;
+        font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    }
+    
+    
+}
 
   
