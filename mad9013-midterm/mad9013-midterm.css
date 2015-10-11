@@ -19,14 +19,56 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/*
 @media only screen and (max-device-width: 35em) {
     html {
         float: none;
         width: 100%;
-        font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
     }
+*/
+
+/*colors to use: #437F07, #ADFF5A, #86FF0D, #567F2D, #6BCC0B*/
     
-    
+html {font-size: 1em;}
+
+body {
+  background-color: #567F2D;
+  font-family: open sans, sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  font-size: 1.3em;
 }
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}    
+
+header {
+    background-color: #6BCC0B;
+}
+.nav {
+    background-color: #86FF0D;
+}
+
+
+
 
   
