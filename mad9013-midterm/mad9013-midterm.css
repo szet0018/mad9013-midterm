@@ -41,7 +41,8 @@ body {
   margin: 10% 10% 10% 10%;
 }
 
-p {margin-bottom: 1.3em;
+p {
+    margin-bottom: 1.3em;
 }
 
 h1, h2, h3, h4 {

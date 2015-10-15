@@ -140,6 +140,49 @@ nav ul li:last-child{
     background-repeat: no-repeat;
     background-position: top center;
     padding-bottom: 0%;
-    margin-bottom: 10%;
+    margin-bottom: 10%;   
+}
+
+@media only screen and (min-device-width: 36em) and (max-device-width: 60em) {
+    .mainnav {
+        display: inline;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    nav ul {
+       margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+    }
     
+    nav ul li {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    nav a, nav a:link, nav a:visited {
+        display: inline;
+    }
+    .content {
+        margin: 0 auto 0 auto;
+        width: 63%;
+        float: left;
+    }
+    .side {
+        width: 37%;
+        float: right;
+    }
+    img {
+        width: 100%;
+    }
+    .footer {
+        clear: both;
+    }
 }
