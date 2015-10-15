@@ -90,8 +90,10 @@ nav a:hover, nav a:active {
 nav ul {
     margin: none;
     width: 100%;
+/*
     border-top: solid #888888;
     border-bottom: solid #888888;
+*/
     padding-top: 4%;
     padding-bottom: 4%;
     background-color: white;
@@ -126,6 +128,7 @@ nav li{
     h1 {
         font-size: 1.7em;
         font-weight: 700;
+        border: none;
     }
     h2 {
         font-size: 1.4em;
@@ -142,7 +145,21 @@ nav li{
     nav ul li {
         display: block;
         width: 100%;
-        font-size: 0.8em;
+        font-size: 1em;
+        font-weight: 600;
+        text-align: center;
+        border-top: 3px solid #888888;
+        border-left: 3px solid #888888;
+        border-right: 3px solid #888888;
+        padding: 2% 0 2% 0;
+        background-image: url("images/greenBackground2.jpg");
+        
+    }
+    nav ul li:last-child {
+        border-bottom: 3px solid #888888;
+    }
+    .mainnav {
+        width: 100%;
     }
    
 @media only screen and (min-device-width: 36em) and (max-device-width: 60em) {
