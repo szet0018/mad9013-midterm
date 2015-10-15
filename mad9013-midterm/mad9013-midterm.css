@@ -95,7 +95,6 @@ nav ul {
     padding-top: 4%;
     padding-bottom: 4%;
     background-color: white;
-    disply: inline;
 }
 nav li{
     display: inline-block;
@@ -115,8 +114,38 @@ nav li{
         float: none;
         width: 100%;
     }
+    body {
+        font-size: 1em;
+        margin: 3% 3% 3% 3%;
     }
-@media only screen and (min-device-width: 35em) and (max-device-width: 60em) {
+    }
+    img {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    h1 {
+        font-size: 1.7em;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 1.4em;
+        font-weight: 600;
+        
+    }
+    h3 {
+        font-size: 1.2em;
+        font-weight: 600;
+        border-top: 1px solid #888888;
+        padding-top: 5%;
+    }
+
+    nav ul li {
+        display: block;
+        width: 100%;
+        font-size: 0.8em;
+    }
+   
+@media only screen and (min-device-width: 36em) and (max-device-width: 60em) {
     .content {
         margin: 0 auto 0 auto;
         width: 63%;
@@ -126,7 +155,10 @@ nav li{
         width: 37%;
         float: right;
     }
+    img {
+        width: 100%;
     }
+}
     
 @media only screen and (min-device-width: 60em) {
     html {
