@@ -35,7 +35,7 @@ body {
     color: #333;
     font-size: 1rem;
     margin: 3% 3% 3% 3%;
-    text-align: justify;
+    text-align: left;
 }
 
 img {
@@ -58,6 +58,7 @@ h1 {
     font-size: 1.7rem;
     font-weight: 700;
     border: none;
+    text-align: center;
 }
 
 h2 {
@@ -147,4 +148,8 @@ nav ul li:last-child{
     margin-bottom: 10%;
 */
     
+}
+
+.footer {
+    text-align: center;
 }

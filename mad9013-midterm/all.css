@@ -1,16 +1,4 @@
-*{
-    
-    box-sizing: border-box;
-}
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+* {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -20,12 +8,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-size: 100%;
 	font-family: inherit;
 	vertical-align: baseline;
+    box-sizing: border-box;
 }
-
-html {
-        float: none;
-        width: 100%;
-    }
 
 body {
     background-image: url("images/greenBackground.jpg");
@@ -33,9 +17,9 @@ body {
     font-weight: 400;
     line-height: 1.45;
     color: #333;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 3% 3% 3% 3%;
-    text-align: justify;
+    text-align: left;
 }
 
 img {
@@ -51,13 +35,14 @@ p {
 
 h1 {
     margin-top: 0%;
-    margin-bottom: 0%;
-    padding-top: 20%;
+    margin-bottom: 10%;
+    padding-top: 0%;
     padding-bottom: 0%;
     color: #4c645c;
     font-size: 1.7rem;
     font-weight: 700;
     border: none;
+    text-align: center;
 }
 
 h2 {
@@ -115,10 +100,8 @@ nav ul li {
     border-right: 0.15rem solid #888888;
     border-bottom: 0.075rem solid #888888;
     border-radius: 0.5rem;
-/*    padding: 2% 0 2% 0;*/
-    background-image: url("images/greenBackground2.jpg");
-        
-    }
+    background-image: url("images/greenBackground2.jpg");     
+}
 
 nav ul li:first-child{
     border-top: 0.15rem solid #888888;
@@ -136,17 +119,11 @@ nav ul li:last-child{
     border-radius: 2rem;
 }
 
-.masthead {
-/*
-    background-image: url(images/Cat.png); 
-    background-repeat: no-repeat;
-    background-position: top center;
-    padding-bottom: 0%;
-    margin-bottom: 10%;   
-*/
+.footer {
+    text-align: center;
 }
 
-@media only screen and (min-device-width: 36em) and (max-device-width: 60em) {
+@media only screen and (min-device-width: 36rem) and (max-device-width: 60rem) {
     body {
         font-size: 1rem;
     }
@@ -154,7 +131,6 @@ nav ul li:last-child{
         
     }
     .mainnav {
-/*        display: inline;*/
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 20%;
@@ -177,7 +153,6 @@ nav ul li:last-child{
         padding-top: 0;
         padding-bottom: 0;
         width: 24.5%;
-/*        display: block;*/
         padding: 0.5% 0 0.5% 0;
         float:left;
         border-top: 0.18rem solid #888888;
@@ -187,11 +162,6 @@ nav ul li:last-child{
         border-radius: 0.2rem;
     }
     
-/*
-    nav ul:last-child {
-        clear: both;
-    }
-*/
     nav a, nav a:link, nav a:visited {
         display: inline;
         font-size: 1.4rem;
@@ -252,5 +222,134 @@ nav ul li:last-child{
     }
     .footer p {
         padding-top: 5%;
+    }
+}
+
+@media only screen and (min-device-width: 60rem) {
+    * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+    }
+    body {
+        margin: 1%;
+    }
+    img {
+        width: 100%;
+        margin-bottom: 3%;
+        border: 0.15rem solid #888888;
+        border-radius: 0.5rem;
+        }
+    header {
+        background-image: url(images/Cat.png); 
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        padding-bottom: 8%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    .masthead {
+        border: 0.15rem solid #888888;
+        border-radius: 0.5rem;
+        background-color: #F4F4F4;
+    }
+    h1 {
+        font-size: 5rem;
+        text-align: center;
+        color: #4c645c;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+        color: #4c645c;
+        font-weight: 700;
+        margin-bottom: 2%;
+    }
+    h3 {
+        font-size: 2rem;
+        text-align: center;
+        color: #4c645c;
+        font-weight: 700;
+        margin-bottom: 2%;
+    }
+    nav {
+        width: 22%;
+        margin-top: 4%;
+        float: left;
+    }
+
+    nav ul {
+        list-style: none;
+        display: block;
+        margin-bottom: 2%;
+    }
+    nav a, nav a:link, nav a:visited {
+        color: #6a7f76;
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: 500;
+        padding: 2% 0 2% 0;
+
+    }
+    nav a:hover, nav a:active {
+        color: #ffffff;
+        font-size: 1.7rem;
+        font-weight: 500;
+        width: 100%;
+        padding: 2% 0 2% 0;
+        text-shadow: 0.1rem 0.1rem #9CBA7F;
+    }
+
+    .mainnav li {
+        border-top: 0.14rem solid #888888;
+        border-bottom: 0.14rem solid #888888;
+        border-left: 0.14rem solid #888888;
+        border-right: 0.14rem solid #888888;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        background-image: url("images/greenBackground2.jpg");
+        display: block;
+    }
+
+    main {
+        width: 52%;
+        margin-right: 1%;
+        float: left;
+        display: inline;
+        -webkit-column-count: 2; 
+        -moz-column-count: 2; 
+        column-count: 2;
+    }
+    main p {
+        color: #003D00;
+    }
+    aside {
+        width: 24%;
+        border: 0.14rem solid #888888;
+        border-radius: 0.5rem;
+        padding: 1.8%;
+        background-image: url("images/greenBackground2.jpg");
+        float: right;
+        display: inline;
+    }
+    aside p {
+        color: #003D00;
+    }
+
+    footer {
+        clear: both;
+    }
+    footer p {
+        text-align: center;
     }
 }
