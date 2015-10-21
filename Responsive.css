@@ -246,15 +246,6 @@ nav ul li:last-child{
     border-radius: 2rem;
 }
 
-.masthead {
-/*
-    background-image: url(images/Cat.png); 
-    background-repeat: no-repeat;
-    background-position: top center;
-    padding-bottom: 0%;
-    margin-bottom: 10%;   
-*/
-}
 
 @media only screen and (min-device-width: 36em) and (max-device-width: 60em) {
     body {
@@ -264,7 +255,6 @@ nav ul li:last-child{
         
     }
     .mainnav {
-/*        display: inline;*/
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 20%;
@@ -287,7 +277,6 @@ nav ul li:last-child{
         padding-top: 0;
         padding-bottom: 0;
         width: 24.5%;
-/*        display: block;*/
         padding: 0.5% 0 0.5% 0;
         float:left;
         border-top: 0.18rem solid #888888;
@@ -297,11 +286,6 @@ nav ul li:last-child{
         border-radius: 0.2rem;
     }
     
-/*
-    nav ul:last-child {
-        clear: both;
-    }
-*/
     nav a, nav a:link, nav a:visited {
         display: inline;
         font-size: 1.4rem;
@@ -315,7 +299,7 @@ nav ul li:last-child{
     width: 100%;
     padding: 0 0 0 0;
     text-shadow: 0.1rem 0.1rem #9CBA7F;
-}
+    }
     }
     h1 {
         font-size: 3.5rem;
@@ -376,7 +360,7 @@ nav ul li:last-child{
         border-radius: 0.5rem;
         }
     header {
-        background-image: url(images/Cat.png); 
+        background-image: url(images/Cat.png);
         background-repeat: no-repeat;
         background-position: center bottom;
         padding-bottom: 8%;
