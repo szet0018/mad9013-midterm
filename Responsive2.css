@@ -245,11 +245,14 @@ nav ul li:last-child{
     border: 5px solid #999b9a;
     border-radius: 2rem;
 }
-}
+
 
 @media only screen and (min-device-width: 36em) and (max-device-width: 60em) {
     body {
         font-size: 1rem;
+    }
+    .masthead {
+        
     }
     .mainnav {
         margin-left: 0;
@@ -296,7 +299,7 @@ nav ul li:last-child{
     width: 100%;
     padding: 0 0 0 0;
     text-shadow: 0.1rem 0.1rem #9CBA7F;
-}
+    }
     }
     h1 {
         font-size: 3.5rem;
@@ -353,6 +356,7 @@ nav ul li:last-child{
     img {
         width: 100%;
         margin-bottom: 3%;
+        margin-top: 5%;
         border: 0.15rem solid #888888;
         border-radius: 0.5rem;
         }
@@ -370,24 +374,26 @@ nav ul li:last-child{
         background-color: #F4F4F4;
     }
     h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         text-align: center;
         color: #4c645c;
         font-weight: 700;
+        margin-top: 3%
     }
     h2 {
-        font-size: 3rem;
-        text-align: center;
-        color: #4c645c;
-        font-weight: 700;
-        margin-bottom: 10%;
-    }
-    h3 {
-        font-size: 2rem;
+        font-size: 2.25rem;
         text-align: center;
         color: #4c645c;
         font-weight: 700;
         margin-bottom: 2%;
+    }
+    h3 {
+        font-size: 1.75rem;
+        text-align: center;
+        color: #4c645c;
+        font-weight: 700;
+        margin-bottom: 2%;
+        margin-top: 8%
     }
     nav {
         width: 22%;
@@ -460,11 +466,11 @@ nav ul li:last-child{
 
     footer {
         clear: both;
+        
     }
     footer p {
         text-align: center;
+        padding-top: 5%;
+        padding-bottom: 3%;
     }
 }
-
-
-
