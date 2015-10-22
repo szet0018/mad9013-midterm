@@ -450,6 +450,7 @@ nav ul li:last-child{
     }
     main p {
         color: #003D00;
+        font-size: 1.7;
     }
     aside {
         width: 24%;
