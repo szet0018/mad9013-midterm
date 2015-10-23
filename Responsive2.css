@@ -24,7 +24,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 @media only screen and (max-device-width: 35em){
     body {
-        background-image: url("/images/greenBackground.jpg");
+        background-image: url("greenBackground.jpg");
         font-family: open sans, sans-serif;
         font-weight: 400;
         line-height: 1.45;
@@ -90,7 +90,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         color: #ffffff;
         font-size: 1.7rem;
         font-weight: 700;
-        background-image: url(/images/greenBackground3.jpg);
+        background-image: url("greenBackground3.jpg");
         width: 100%;
         padding: 2% 0 2% 0;
         text-shadow: 0.1rem 0.1rem #9CBA7F;
@@ -112,7 +112,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
         border-right: 0.15rem solid #888888;
         border-bottom: 0.075rem solid #888888;
         border-radius: 0.5rem;
-        background-image: url("/images/greenBackground2.jpg");
+        background-image: url("greenBackground2.jpg");
     }
 
     nav ul li:first-child{
@@ -138,7 +138,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 @media only screen and (min-device-width: 36em) and (max-device-width: 60em) {
     body {
-    background-image: url("/images/greenBackground.jpg");
+    background-image: url("greenBackground.jpg");
     font-family: open sans, sans-serif;
     font-weight: 400;
     line-height: 1.45;
@@ -203,7 +203,7 @@ nav a:hover, nav a:active {
     color: #ffffff;
     font-size: 1.7rem;
     font-weight: 700;
-    background-image: url(/images/greenBackground3.jpg);
+    background-image: url("greenBackground3.jpg");
     width: 100%;
     padding: 2% 0 2% 0;
     text-shadow: 0.1rem 0.1rem #9CBA7F;
@@ -226,7 +226,7 @@ nav ul li {
     border-bottom: 0.075rem solid #888888;
     border-radius: 0.5rem;
 /*    padding: 2% 0 2% 0;*/
-    background-image: url("/images/greenBackground2.jpg");
+    background-image: url("greenBackground2.jpg");
         
     }
 
@@ -365,7 +365,7 @@ nav ul li:last-child{
         border-radius: 0.5rem;
         }
     header {
-        background-image: url(/images/Cat.png);
+        background-image: url("Cat.png");
         background-repeat: no-repeat;
         background-position: center bottom;
         padding-bottom: 8%;
@@ -439,7 +439,7 @@ nav ul li:last-child{
         margin-top: 5%;
         margin-bottom: 5%;
         text-align: center;
-        background-image: url("images/greenBackground2.jpg");
+        background-image: url("greenBackground2.jpg");
         display: block;
     }
 
@@ -461,7 +461,7 @@ nav ul li:last-child{
         border: 0.14rem solid #888888;
         border-radius: 0.5rem;
         padding: 1.8%;
-        background-image: url("/images/greenBackground2.jpg");
+        background-image: url("greenBackground2.jpg");
         float: right;
         display: inline;
     }
